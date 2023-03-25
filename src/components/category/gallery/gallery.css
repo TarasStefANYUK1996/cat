@@ -1,0 +1,27 @@
+.filter__gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    background-color:#F8F8F7;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+.gallerybtnL{
+    display: flex;
+}
+.gallery__form select{
+    background-color:#fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+

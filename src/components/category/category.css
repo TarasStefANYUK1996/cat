@@ -1,0 +1,35 @@
+.category__item{
+    display: flex;
+    flex-direction: column;
+}
+.category__list{
+    display: flex;
+    grid-gap: 16px;
+  }
+  .category__desc{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+color: #1D1D1D
+  }
+  .category__btn{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+    color:#FF868E;
+    background:#fff;
+    border-radius:10px;
+    text-transform: uppercase;
+    padding: 10px 0;
+  }
+  .active{
+    background:#FF868E;
+    color:#fff;
+  }
+  .category__btn:hover{
+background:#FF868E;
+color:#fff;
+  }

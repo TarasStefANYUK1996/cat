@@ -1,0 +1,49 @@
+fieldset{
+    padding: 40px;
+    /* border-color: #FBE0DC; */
+  border: 2px solid #FBE0DC;
+    border-radius: 20px;
+}
+.Descriptions__wrap{
+    border-radius:20px;
+    background-color: #fff;
+    padding: 40px;
+}
+.desc__top img{
+    border-radius:20px;
+   
+}
+.legend{
+    font-weight: 500;
+    font-size: 36px;
+
+}
+.head__name{
+    text-align: center;
+    color:#8C8C8C;
+    font-size: 20px;
+    font-weight: 500;
+}
+.desc__textWrap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+     color:#8C8C8C;
+}
+.desc__textWrap span{
+    color: #1D1D1D;
+    font-weight: bold;
+}
+.descID{
+    background: #FF868E;
+    border-radius: 10px;
+    border:none;
+    height: 100%;
+}
+.wrBtn{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 10px;
+    justify-content: start;
+    padding: 30px 0 20px;
+}

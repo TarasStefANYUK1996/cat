@@ -1,0 +1,37 @@
+.filter{
+    display: flex;
+    
+    grid-gap: 10px;
+
+    height: 40px;;
+}
+
+.form{
+    height: 100%;
+    border-radius:10px;
+    overflow: hidden;
+}
+select option:checked {
+  text-indent: 10px;
+}
+.folter__select  {
+    border:none;
+    outline :none;
+    color:#8C8C8C;
+      background-color:#F8F8F7;
+   height: 100%;
+   padding: 8px 10px;
+}
+.btn__sort{
+        outline :none;
+     border: 1px solid transparent;
+    border-radius:10px;
+    padding: 10px;
+         transition: all .15s ease-in 0s;
+
+}
+.btn__sort:hover{
+    border: 1px solid #8C8C8C;
+
+
+}

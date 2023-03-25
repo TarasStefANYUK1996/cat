@@ -1,0 +1,29 @@
+.votinghistoryItem{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 18px;
+    border-radius:10px;
+    background:#F8F8F7;
+}
+.votinghistoryDate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    background:#fff;
+    padding: 3px 10px;
+    border-radius:5px;
+}
+.votingImageId{
+font-weight: bold;
+}
+.votinghistoryWr{
+    margin-top:58px ;
+    display: grid;
+    grid-gap: 15px;;
+}
+
+.wrhistorText{
+    display: flex;
+}

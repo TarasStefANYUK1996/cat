@@ -1,0 +1,11 @@
+.gallery__form{
+    display: flex;
+    flex-direction: column;
+}
+.label{
+    color: #8C8C8C;
+    text-transform: uppercase;
+    font-size:10px;
+    line-height: 18px;
+    font-weight: 500;
+}
