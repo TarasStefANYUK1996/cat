@@ -49,7 +49,7 @@ const Render = () => {
   const getUserd = (it) => {
     setChar(it);
   };
-  const getCat = async (e) => {
+  const getCat = async () => {
     setLoading(true);
     //рандомне фото кота
     const url = "https://api.thecatapi.com/v1/images/search";
@@ -123,10 +123,10 @@ const Render = () => {
   const updateGallery = (gallery) => {
     setGallery(gallery);
   };
-  useEffect((e) => {
-    getCat(e);
+  useEffect(() => {
+    getCat();
   }, []);
-  useEffect((e) => {
+  useEffect(() => {
     getCatAll("");
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
@@ -179,6 +179,7 @@ const Render = () => {
       children: [
         {
           path: "/voting",
+          index: true,
           element: (
             <>
               <SearchPanel getCatAll={getCatAll} arrLike={arrLike} />
@@ -197,7 +198,7 @@ const Render = () => {
           ),
         },
         {
-          path: "breeds",
+          path: "/breeds",
           element: (
             <>
               <SearchPanel getCatAll={getCatAll} arrLike={arrLike} />
@@ -218,7 +219,7 @@ const Render = () => {
           children: [],
         },
         {
-          path: "type",
+          path: "/type",
           element: (
             <>
               <Descriptions arrLike={arrLike} itemDescs={itemDescs} />
@@ -236,7 +237,7 @@ const Render = () => {
           ),
         },
         {
-          path: "gallery",
+          path: "/gallery",
           element: (
             <>
               <Gallery
